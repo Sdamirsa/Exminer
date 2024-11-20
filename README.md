@@ -8,6 +8,19 @@ Exminer aims to ease the tedious process of test creation. It utilizes RAG-based
 + Processes the PDF and saves it as chunks into a database.
 + Generates 5 MCQs based on the specified topic when a user enters a query.
 
+## How to use:
+  We will release windows portable version shortly
+
+#### Setup to run the app
+1- install python
+
+2- create a virtual environment
+
+3- pip install libraries in the requirments.txt
+
+4- run
+```streamlit run main.py```
+
 ## TO-DO
 - [ ] Allow users to choose the number of questions.
 - [ ] Enhance the pre-prompt to generate more relevant questions.
